@@ -48,12 +48,13 @@ public class Loop {
                     System.out.println(classes[new Random().nextInt(4)]+"으(로) 설정되었습니다.");
                     break;
                 case 9:
-                    System.out.println("이제 공부하세요!!");
+                    System.out.println("이제 공부하세요!");
                     break;
                 default:
                     System.out.println("없는 메뉴입니다!!");
                     break;
             }
         }
+        scan.close();
     }
 }
