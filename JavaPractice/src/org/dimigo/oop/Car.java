@@ -23,40 +23,40 @@ public class Car {
         return company;
     }
 
-    public void setCompany(String company) {
-        this.company = company;
+    public void setCompany(String newCompany) {
+        company = newCompany;
     }
 
     public String getModel() {
         return model;
     }
 
-    public void setModel(String model) {
-        this.model = model;
+    public void setModel(String newModel) {
+        model = newModel;
     }
 
     public String getColor() {
         return color;
     }
 
-    public void setColor(String color) {
-        this.color = color;
+    public void setColor(String newColor) {
+        color = newColor;
     }
 
     public int getMaxSpeed() {
         return maxSpeed;
     }
 
-    public void setMaxSpeed(int maxSpeed) {
-        this.maxSpeed = maxSpeed;
+    public void setMaxSpeed(int newMaxSpeed) {
+        maxSpeed = newMaxSpeed;
     }
 
     public int getPrice() {
         return price;
     }
 
-    public void setPrice(int price) {
-        this.price = price;
+    public void setPrice(int newPrice) {
+        price = newPrice;
     }
 
 }
