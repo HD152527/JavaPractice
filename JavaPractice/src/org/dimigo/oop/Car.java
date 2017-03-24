@@ -7,7 +7,7 @@ package org.dimigo.oop;
  *
  * 1. 개요 :
  * 2. 작성일 : 2017. 3. 23.
- * <pre>
+ * </pre>
  *
  * @author : Seung
  * @version : 1.0
