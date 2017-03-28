@@ -15,8 +15,8 @@ package org.dimigo.oop;
 public class CarTest2 extends Car2 {
     public static void main(String[] args) {
         Car2 genesis = new Car2("현대자동차", "제네시스", "검정색", 255, 50000000);
-        Car2 K7 = new Car2("기아자동차", "K7", "흰색", 246,40000000);
-        Car2 SM7 = new Car2("삼성자동차", "SM7", "회색",200,38000000);
+        Car2 K7 = new Car2("기아자동차", "K7", "흰색", 246, 40000000);
+        Car2 SM7 = new Car2("삼성자동차", "SM7", "회색", 200, 38000000);
 
         System.out.println("<< 자동차 목록 >>");
         System.out.printf("제조사명 : %s\n모델명 : %s\n색상 : %s\n최대속도 %dkm\n가격 : %,d원\n\n",genesis.getCompany(),genesis.getModel(),genesis.getColor(),genesis.getMaxSpeed(),genesis.getPrice());

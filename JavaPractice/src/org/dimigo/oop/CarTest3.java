@@ -19,9 +19,15 @@ public class CarTest3 extends Car3 {
         Car3 SM7 = new Car3("삼성자동차", "SM7", "회색");
 
         System.out.println("<< 자동차 목록 >>");
+
+        genesis.printCar();
+        K7.printCar();
+        SM7.printCar();
+
+        /*
         System.out.printf("제조사명 : %s\n모델명 : %s\n색상 : %s\n최대속도 %dkm\n가격 : %,d원\n\n",genesis.getCompany(),genesis.getModel(),genesis.getColor(),genesis.getMaxSpeed(),genesis.getPrice());
         System.out.printf("제조사명 : %s\n모델명 : %s\n색상 : %s\n최대속도 %dkm\n가격 : %,d원\n\n",K7.getCompany(),K7.getModel(),K7.getColor(),K7.getMaxSpeed(),K7.getPrice());
         System.out.printf("제조사명 : %s\n모델명 : %s\n색상 : %s\n최대속도 %dkm\n가격 : %,d원\n\n",SM7.getCompany(),SM7.getModel(),SM7.getColor(),SM7.getMaxSpeed(),SM7.getPrice());
-
+        */
     }
 }

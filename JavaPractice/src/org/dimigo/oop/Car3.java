@@ -10,7 +10,7 @@ package org.dimigo.oop;
  * <pre>
  *
  * @author : Seung
- * @version : 1.0
+ * @version  : 1.0
  */
 public class Car3 {
     private String company;
@@ -22,8 +22,8 @@ public class Car3 {
     public Car3(){
     }
 
-    public Car3(String Company, String model, String color, int maxSpeed, int price){
-        this.company = Company;
+    public Car3(String company, String model, String color, int maxSpeed, int price){
+        this.company = company;
         this.model = model;
         this.color = color;
         this.maxSpeed = maxSpeed;
