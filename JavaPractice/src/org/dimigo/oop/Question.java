@@ -32,9 +32,9 @@ public class Question {
         System.out.println(scan.nextLine().equals(answer3)?"정답입니다!":"틀렸습니다!");
 
         System.out.println("<< 결과 출력 >>");
-        System.out.println(q1.append(answer1 + "입니다"));
-        System.out.println(q2.append(answer2 + "입니다"));
-        System.out.println(q3.append(answer3 + "입니다"));
+        System.out.println(q1.append(answer1 + "입니다").toString());
+        System.out.println(q2.append(answer2 + "입니다").toString());
+        System.out.println(q3.append(answer3 + "입니다").toString());
 
 
     }
