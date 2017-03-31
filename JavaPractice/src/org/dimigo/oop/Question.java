@@ -31,9 +31,8 @@ public class Question {
         StringBuilder sb = new StringBuilder();
         System.out.println(sb.append("<< 결과 출력 >>"));
         for(int i=0 ; i<3; i++){
-            sb.delete(0, 100);
+            sb = new StringBuilder();
             System.out.println(sb.append(question[i] + answer[i] + "입니다").toString());
-
         }
     }
 }
