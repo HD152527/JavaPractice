@@ -30,6 +30,6 @@ public class SnackTest extends Snack{
             sum += snacks[i].calcPrice();
         }
 
-        System.out.println("총 구매 금액 : " +sum + "원");
+        System.out.println("총 구매 금액 : " +String.format("%,d",sum) + "원");
     }
 }
