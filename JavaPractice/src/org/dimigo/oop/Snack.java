@@ -68,4 +68,11 @@ public class Snack {
         System.out.println();
     }
 
+    public int calcPrice(){
+        return price * number;
+    }
+    public String toString(){
+        return "이름 : " + name + "\n제조사 : " + company + "\n가격 : " + String.format("%,d", price) + "원\n개수 : " + number + "개\n";
+    }
+
 }

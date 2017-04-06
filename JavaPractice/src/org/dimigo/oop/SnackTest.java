@@ -24,10 +24,12 @@ public class SnackTest extends Snack{
         };
 
         int sum = 0;
-        for(int i = 0; i < snacks.length; i++){
-            snacks[i].printSnack();
-            sum += snacks[i].getPrice() * snacks[i].getNumber();
+
+        for (int i = 0; i < snacks.length; i++) {
+            System.out.println(snacks[i].toString());
+            sum += snacks[i].calcPrice();
         }
-        System.out.println("총 구매 금액 : "+String.format("%,d",sum)+"원");
+
+        System.out.println("총 구매 금액 : " +sum + "원");
     }
 }
