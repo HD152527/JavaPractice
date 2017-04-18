@@ -22,7 +22,7 @@ public class PiggyBankTest extends PiggyBank{
                 new FamilyMember("남동생")
         };
 
-        familyMembers[0].printMemberCnt();
+        FamilyMember.printMemberCnt();
 
         PiggyBank pg = new PiggyBank();
         pg.putMoney(familyMembers[0], 10000);
@@ -30,10 +30,10 @@ public class PiggyBankTest extends PiggyBank{
         pg.putMoney(familyMembers[2], 2000);
         pg.putMoney(familyMembers[3], 1000);
 
-        pg.printBalance();
+        PiggyBank.printBalance();
 
         pg.putMoney(familyMembers[2], 1000);
 
-        pg.printBalance();
+        PiggyBank.printBalance();
     }
 }
