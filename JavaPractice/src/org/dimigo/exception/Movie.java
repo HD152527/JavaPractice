@@ -38,7 +38,7 @@ public class Movie {
                 throw new Exception(getTitle() + "은/는 " +getLimitAge()+"세 이상 관람가입니다.");
 
             }else {
-                System.out.println(title + " 즐감하세요.");
+                throw new Exception(title + " 즐감하세요.");
         }
     }
 }
